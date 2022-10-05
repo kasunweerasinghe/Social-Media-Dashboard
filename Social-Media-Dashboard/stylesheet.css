@@ -167,6 +167,13 @@ header section:nth-child(2){
     border-top: 3px solid hsl(221, 44%, 41%);
 }
 
+/*remove facebook username a tag underline*/
+.header-card-1-name a,u{
+    text-decoration: none;
+    color: #3b5998;
+    font-size: 15px;
+}
+
 .twitter {
     border-top: 3px solid hsl(197, 100%, 47%);
 }
