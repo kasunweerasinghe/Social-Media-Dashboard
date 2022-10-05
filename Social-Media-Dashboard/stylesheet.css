@@ -7,12 +7,12 @@ created by kasunrachintha on 10/5/22
 */
 
 /*dark mode color schemes*/
-.dark{
-    --bg: hsl(230, 17%,14%);
-    --bg-top: hsl(232, 19%,15%);
-    --bg-card: hsl(228, 28%,20%);
-    --subtext: hsl(228, 34%,66%);
-    --header-text: hsl(0, 0%,100%);
+.dark {
+    --bg: hsl(230, 17%, 14%);
+    --bg-top: hsl(232, 19%, 15%);
+    --bg-card: hsl(228, 28%, 20%);
+    --subtext: hsl(228, 34%, 66%);
+    --header-text: hsl(0, 0%, 100%);
     --hover: #3a3458;
     --toggler: linear-gardient(to right, hsl(210, 78%, 56%), hsl(146, 68%, 55%));
 
@@ -29,18 +29,18 @@ created by kasunrachintha on 10/5/22
     --hover: #e0ddee;
 }
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
-    font-family: "Inner",sans-serif;
-    background-color:var(--bg) !important;
+body {
+    font-family: "Inner", sans-serif;
+    background-color: var(--bg) !important;
 }
 
-.wrapper{
+.wrapper {
     display: flex;
     justify-content: center;
     align-content: center;
@@ -48,34 +48,34 @@ body{
     width: 100%;
 }
 
-.container1{
+.container1 {
     width: 80%;
 }
 
 /*Header headline*/
-header section:first-child{
+header section:first-child {
     display: flex;
     justify-content: space-between;
-    margin-top:20px;
+    margin-top: 20px;
     margin-bottom: 40px;
 }
 
 /*headline 1 Social Media Dashboard color and size*/
-.header-headline .header-headline-1{
+.header-headline .header-headline-1 {
     font-weight: 700;
     font-size: 32px;
     color: var(--header-text);
 }
 
 /*headline 2 Total Followers color and size*/
-.header-headline .header-headline-2{
+.header-headline .header-headline-2 {
     font-weight: 700;
     font-size: 16px;
     color: var(--subtext);
 }
 
 /*dark/ light mode toggle*/
-.header-toggler{
+.header-toggler {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -83,7 +83,7 @@ header section:first-child{
 }
 
 
-.toggler{
+.toggler {
     width: 45px;
     min-width: 45px;
     height: 24px;
@@ -94,11 +94,69 @@ header section:first-child{
     background-image: var(--toggler);
 }
 
-.toggler-circle{
+.toggler-circle {
     margin: 2px 2px;
     width: 20px;
     height: 20px;
     border-radius: 20px;
     background-color: var(--bg);
     transition: 0.3s;
+}
+
+/*social media cart section*/
+header section:last-child {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.header-card {
+    width: 260px;
+    padding: 25px 30px;
+    background-color: var(--bg-card);
+    text-align: center;
+    border-radius: 5px;
+}
+
+.padding-left {
+    padding-left: 0;
+}
+
+.padding-right {
+    padding-right: 0;
+}
+
+.header-card-1 {
+    margin: 10px 0 10px 0;
+    color: var(--subtext);
+    font-weight: 700;
+}
+
+.header-card-1-name {
+    font-size: 13px;
+}
+
+.header-card-2 {
+    font-size: 50px;
+    font-weight: 700;
+    color: var(--header-text);
+}
+
+.header-card-3 {
+    color: var(--subtext);
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 14px;
+}
+
+.header-card-4{
+    margin-top: 20px;
+}
+
+.facebook{
+    border-top: 3px solid hsl(208, 92%, 53%);
+}
+
+.twitter{
+    border-top: 3px solid hsl(208, 89%, 53%);
 }
