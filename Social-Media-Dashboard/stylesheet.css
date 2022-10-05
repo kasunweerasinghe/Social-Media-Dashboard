@@ -73,3 +73,32 @@ header section:first-child{
     font-size: 16px;
     color: var(--subtext);
 }
+
+/*dark/ light mode toggle*/
+.header-toggler{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--header-text);
+}
+
+
+.toggler{
+    width: 45px;
+    min-width: 45px;
+    height: 24px;
+    margin-left: 10px;
+    background: hsl(230, 22%, 74%);
+    border-radius: 20px;
+    cursor: pointer;
+    background-image: var(--toggler);
+}
+
+.toggler-circle{
+    margin: 2px 2px;
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    background-color: var(--bg);
+    transition: 0.3s;
+}
