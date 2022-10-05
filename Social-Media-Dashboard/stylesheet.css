@@ -40,6 +40,7 @@ body {
     background-color: var(--bg) !important;
 }
 
+/*main div*/
 .wrapper {
     display: flex;
     justify-content: center;
@@ -82,7 +83,7 @@ header section:first-child {
     color: var(--header-text);
 }
 
-
+/*dark and light toggle bar*/
 .toggler {
     width: 45px;
     min-width: 45px;
@@ -94,6 +95,7 @@ header section:first-child {
     background-image: var(--toggler);
 }
 
+/*dark and light toggle bar inside circle*/
 .toggler-circle {
     margin: 2px 2px;
     width: 20px;
@@ -110,6 +112,7 @@ header section:last-child {
     justify-content: space-around;
 }
 
+/*social media header-card class*/
 .header-card {
     width: 260px;
     padding: 25px 30px;
@@ -118,30 +121,36 @@ header section:last-child {
     border-radius: 5px;
 }
 
+/*social media padding-left class*/
 .padding-left {
     padding-left: 0;
 }
 
+/*social media padding-right class*/
 .padding-right {
     padding-right: 0;
 }
 
+/*card main container*/
 .header-card-1 {
     margin: 10px 0 10px 0;
     color: var(--subtext);
     font-weight: 700;
 }
 
+/*card 1 class name @kasun*/
 .header-card-1-name {
     font-size: 13px;
 }
 
+/*followers number*/
 .header-card-2 {
     font-size: 50px;
     font-weight: 700;
     color: var(--header-text);
 }
 
+/*followers text*/
 .header-card-3 {
     color: var(--subtext);
     text-transform: uppercase;
@@ -149,14 +158,37 @@ header section:last-child {
     font-size: 14px;
 }
 
-.header-card-4{
+/*up icon*/
+.header-card-4 {
     margin-top: 20px;
 }
 
-.facebook{
+.facebook {
     border-top: 3px solid hsl(208, 92%, 53%);
 }
 
-.twitter{
+.twitter {
     border-top: 3px solid hsl(208, 89%, 53%);
 }
+
+
+.instagram {
+    position: relative;
+    overflow: hidden;
+}
+
+.instagram::after {
+    content: '';
+    background-image: linear-gradient(to right, #fdc468, #df4996);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 4px;
+    width: 100%;
+}
+
+
+.linkedin {
+    border-top: 3px solid hsl(208, 100%, 35%);
+}
+
