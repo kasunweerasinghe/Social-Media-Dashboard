@@ -171,7 +171,7 @@ header section:nth-child(2){
 .header-card-1-name a,u{
     text-decoration: none;
     color: #3b5998;
-    font-size: 15px;
+    /*font-size: 15px;*/
 }
 
 .twitter {
