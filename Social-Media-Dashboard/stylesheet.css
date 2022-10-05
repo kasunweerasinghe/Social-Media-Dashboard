@@ -106,7 +106,7 @@ header section:first-child {
 }
 
 /*social media cart section*/
-header section:last-child {
+header section:nth-child(2){
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -164,11 +164,11 @@ header section:last-child {
 }
 
 .facebook {
-    border-top: 3px solid hsl(208, 92%, 53%);
+    border-top: 3px solid hsl(221, 44%, 41%);
 }
 
 .twitter {
-    border-top: 3px solid hsl(208, 89%, 53%);
+    border-top: 3px solid hsl(197, 100%, 47%);
 }
 
 
@@ -189,6 +189,17 @@ header section:last-child {
 
 
 .linkedin {
-    border-top: 3px solid hsl(208, 100%, 35%);
+    border-top: 3px solid hsl(199, 85%, 36%);
 }
 
+.github {
+    border-top: 3px solid hsl(0, 5%, 9%);
+}
+
+header section:nth-child(3){
+    position: relative;
+    top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
