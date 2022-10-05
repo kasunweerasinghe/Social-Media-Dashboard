@@ -196,6 +196,10 @@ header section:nth-child(2){
     border-top: 3px solid hsl(0, 5%, 9%);
 }
 
+.medium {
+    border-top: 3px solid hsl(0, 5%, 9%);
+}
+
 header section:nth-child(3){
     position: relative;
     top: 30px;
