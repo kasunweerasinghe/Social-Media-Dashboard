@@ -192,6 +192,15 @@ header section:nth-child(2){
     border-top: 3px solid hsl(199, 85%, 36%);
 }
 
+header section:nth-child(3){
+    position: relative;
+    top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
 .github {
     border-top: 3px solid hsl(0, 5%, 9%);
 }
@@ -200,74 +209,18 @@ header section:nth-child(2){
     border-top: 3px solid hsl(0, 5%, 9%);
 }
 
-header section:nth-child(3){
-    position: relative;
-    top: 30px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+.sololearn {
+    border-top: 3px solid hsl(0, 100%, 50%);
 }
 
-/*overview section*/
-.main-heading{
-    margin-top: 30px;
-    margin-bottom: 30px;
-    font-weight: 700;
-    font-size: 32px;
-    color: var(--header-text);
-}
-
-.main-card{
-    background: var(--bg-card);
-    padding: 25px;
-    display: flex;
-    flex-direction: column;
-    border-radius: 5px;
-}
-
-.main-row-margin{
-    margin-bottom: 25px;
-}
-
-.main-card-top .main-card-bottom, .main-card-bottom1{
-    display: flex;
-    justify-content: space-between;
-}
-
-.main-card-top span:first-child{
-    color: var(--subtext);
-    font-weight: 700;
-}
-
-.main-card-bottom span:first-child{
-    font-size: 34px;
-    font-weight: 700;
-    color: var(--header-text);
-    padding-top: 25px;
+.hackerrank {
+    border-top: 3px solid hsl(81, 75%, 41%);
 }
 
 
-.main-card-bottom span:last-child{
-    color: hsl(163, 72%, 41%);
-    font-weight: 700;
-    font-size: 12px;
-    padding-top: 50px;
-}
 
-.main-card-bottom1 span:first-child{
-    font-size: 34px;
-    font-weight: 700;
-    color: var(--header-text);
-    padding-top: 25px;
-}
 
-.main-card-bottom1 span:last-child{
-    font-size: 12px;
-    font-weight: 700;
-   color: hsl(356, 69%, 56%);
-    padding-top: 50px;
-}
-
+/*add styles  Developed by*/
 .attribution{
     font-size: 14px;
     text-align: center;
