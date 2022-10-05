@@ -41,5 +41,35 @@ body{
 }
 
 .wrapper{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 100%;
+    width: 100%;
+}
 
+.container1{
+    width: 80%;
+}
+
+/*Header headline*/
+header section:first-child{
+    display: flex;
+    justify-content: space-between;
+    margin-top:20px;
+    margin-bottom: 40px;
+}
+
+/*headline 1 Social Media Dashboard color and size*/
+.header-headline .header-headline-1{
+    font-weight: 700;
+    font-size: 32px;
+    color: var(--header-text);
+}
+
+/*headline 2 Total Followers color and size*/
+.header-headline .header-headline-2{
+    font-weight: 700;
+    font-size: 16px;
+    color: var(--subtext);
 }
