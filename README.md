@@ -16,3 +16,12 @@ Dark Mode
 
 Light Mode
 ![cal!](assets/images/project_ss/Light.png)
+
+
+#languages
+
+----
+
+*HTML.
+
+*CSS.
